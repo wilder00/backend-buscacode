@@ -39,7 +39,7 @@ const test = async ()=>{
   }
 }
 
-module.exports = {
-  exec,
-  test
-}
+// module.exports = {
+//   exec,
+//   test
+// }

@@ -13,7 +13,6 @@ fs
   .forEach(file => {
     const routes = require(path.join(__dirname, file));
     const fileName = file.substring(0, file.length - 10) // -3 para quitar el .js
-    console.log("el filename: ", fileName);
     router.use(`/${fileName}`, routes)
   });
 
